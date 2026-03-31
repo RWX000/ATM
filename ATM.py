@@ -29,7 +29,7 @@ class cajero:
         print("SU SALDO ACTUAL ES DE:",self.monto)
       
     def retirar(self):
-        self.retiro=input("CUANTO ES EL MONTO QUE DESEEA RETIRAR")
+        self.retiro=int(input("CUANTO ES EL MONTO QUE DESEEA RETIRAR:"))
         self.monto-= self.retiro
         print("SU MONTO ACTUAL ES DE:",self.monto)
 
